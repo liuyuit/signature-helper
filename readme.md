@@ -23,4 +23,5 @@ echo $sign . PHP_EOL; //3b61a95a6a39e73088d8ac4f13ddb7a1
 
 $signatureHelper->verifySignature($params, $sign, $secreteKey); // true
 ```
-
+## note
+sign 和 sign_type 字段不会参与签名
